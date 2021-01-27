@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+body{
+  background-color: rgb(31, 31, 31);
+  /* background-image: url("./Components/background.jpg"); */
+  color: white;
+  background-size: 100% ;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
