@@ -5,6 +5,7 @@ class App extends React.Component {
   state={
     allBreeds: [],
     selectedBreedImgs: [],
+    page: 1,
   }
 
   componentDidMount(){
@@ -35,6 +36,12 @@ class App extends React.Component {
             })}
           </select>
         </div>
+
+        <div>
+          <button>{"<"}</button>
+          <button>{">"}</button>
+        </div>
+
         <div>
           {this.state.selectedBreedImgs.map(dogImg => {
             return (
